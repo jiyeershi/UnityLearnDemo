@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- 按下状态 -->
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/ws_common_5dp"></corners>
+            <solid android:color="@color/ws_color_dialog_title_blue_press"></solid>
+        </shape>
+    </item>
+
+    <!-- 初始状态 -->
+    <item>
+        <shape>
+            <corners android:radius="@dimen/ws_common_5dp"></corners>
+            <solid android:color="@color/ws_color_dialog_title_blue"></solid>
+        </shape>
+    </item>
+
+    <!--    <item android:state_enabled="true" android:state_pressed="true"></item>
+        <item android:drawable="@drawable/ws_user_btn_red_round" android:state_enabled="false" />
+        <item android:drawable="@drawable/ws_user_btn_red_round" />-->
+</selector>

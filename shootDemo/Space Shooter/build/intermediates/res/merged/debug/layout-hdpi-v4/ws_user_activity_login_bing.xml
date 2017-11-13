@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ws_common_view_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ws_title_bar_bg">
+
+        <ImageView
+            android:id="@+id/ws_login_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:onClick="onBack"
+            android:paddingBottom="12dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="12dp"
+            android:src="@drawable/ws_icon_back"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="手机绑定"
+            android:textColor="@color/ws_title_bar_text_color"
+            android:textSize="@dimen/base_text_big_big_size" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:background="@null"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:paddingLeft="@dimen/ws_common_100dp"
+            android:paddingRight="@dimen/ws_common_100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <EditText
+                    android:id="@+id/ws_login_edt_phone"
+                    style="@style/wsLoginEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="10"
+                    android:hint="请输入手机号："
+                    android:background="@drawable/ws_common_view_white"
+                    android:textColor="@color/ws_common_gray_1"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="phone"
+                    android:textColorHint="#333333"
+
+                    android:maxLength="11"
+               />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+                <EditText
+                    android:id="@+id/ws_login_edt_code"
+                    style="@style/wsLoginEditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/ws_common_view_white"
+                    android:textColorHint="#333333"
+                    android:textColor="#333333"
+                    android:hint="请输入验证码："
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/ws_login_btn_code"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:minWidth="100dp"
+                    android:background="@drawable/ws_user_btn_count_down_white"
+                    android:gravity="center"
+                    android:onClick="onSendMsg"
+                    android:text="@string/ws_user_login_sendMessage"
+                    android:textColor="#3789dd"
+                    android:textSize="@dimen/base_text_small_size" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ws_login_btn_bind"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ws_user_btn_blue_selector"
+                android:gravity="center"
+                android:onClick="onBind"
+                android:text="立即绑定"
+                android:textColor="@color/ws_text_commen_color"
+                android:textSize="@dimen/base_text_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

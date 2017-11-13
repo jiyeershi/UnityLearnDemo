@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_custom_wx_login.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_custom_wx_login.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_login_by_paw.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_login_by_paw.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_activity_login_blue.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_activity_login_blue.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_activity_login_def.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_activity_login_def.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_activity_login_bing.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_activity_login_bing.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_login_by_ver_code.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_login_by_ver_code.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_activity_login_def_landscape.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_activity_login_def_landscape.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_activity_login_game.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_activity_login_game.xml"
+    },
+    {
+        "merged": "G:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\ws_user_activity_game_bind.xml",
+        "source": "C:\\Users\\wesai\\.android\\build-cache\\b77265f5d879618619470c536cf1e79ede50a199\\output\\res\\layout-hdpi-v4\\ws_user_activity_game_bind.xml"
+    }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/ws_iv_close_margin"
+        android:layout_marginRight="@dimen/ws_iv_close_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ws_dialog_title_height">
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            style="@style/DialogTitleStyle"/>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ws_pay_tv_close"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ws_pay_selector_btn_close"
+        android:layout_width="@dimen/ws_iv_close_size"
+        android:layout_height="@dimen/ws_iv_close_size" />
+
+</RelativeLayout>

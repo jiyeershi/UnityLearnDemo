@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0790C1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/ws_user_base_bg_title">
+
+        <ImageView
+            android:id="@+id/ws_login_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:onClick="onBack"
+            android:src="@drawable/selector_btn_back"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="手机绑定"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/base_text_big_big_size" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ws_user_base_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:background="@null"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:paddingLeft="@dimen/ws_common_100dp"
+            android:paddingRight="@dimen/ws_common_100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <EditText
+                    android:id="@+id/ws_login_edt_phone"
+                    style="@style/wsLoginEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="10"
+                    android:hint="请输入手机号："
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="phone"
+                    android:textColorHint="#333333"
+                    android:maxLength="11"
+                    android:textColor="#333333"
+                  />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+                <EditText
+                    android:id="@+id/ws_login_edt_code"
+                    style="@style/wsLoginEditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:textColorHint="#333333"
+                    android:textColor="#333333"
+                    android:hint="请输入验证码："
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/ws_login_btn_code"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:minWidth="100dp"
+                    android:background="@drawable/ws_login_bg_green_round"
+                    android:gravity="center"
+                    android:onClick="onSendMsg"
+                    android:text="@string/ws_user_login_sendMessage"
+                    android:textColor="@color/ws_text_commen_color"
+                    android:textSize="@dimen/base_text_small_size" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ws_login_btn_bind"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ws_user_selector_btn_brown"
+                android:gravity="center"
+                android:onClick="onBind"
+                android:text="立即绑定"
+                android:textColor="@color/ws_text_commen_color"
+                android:textSize="@dimen/base_text_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

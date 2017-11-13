@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ws_login_line_h"
+        android:background="@drawable/ws_common_view_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/ws_common_10dp"
+        android:paddingRight="@dimen/ws_common_10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="手机号："
+            android:textColor="@color/ws_common_gray_1"
+            android:textSize="@dimen/base_text_size" />
+
+        <EditText
+            android:id="@+id/et_phone_num"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:hint="@string/ws_user_login_input_mobile"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/ws_common_gray_1"
+            android:textColorHint="@color/ws_common_text_hint_color"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/base_text_size" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ws_login_line_h"
+        android:layout_marginTop="1px"
+        android:background="@drawable/ws_common_view_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/ws_common_10dp"
+        android:paddingRight="@dimen/ws_common_10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="验证码："
+            android:textColor="@color/ws_common_gray_1"
+            android:textSize="@dimen/base_text_size" />
+
+        <EditText
+            android:id="@+id/et_verify_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:hint="@string/ws_user_login_verify_code_input"
+            android:inputType="number"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/ws_common_gray_1"
+            android:textColorHint="@color/ws_common_text_hint_color"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/base_text_size" />
+
+        <TextView
+            android:id="@+id/tv_verify_sms_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ws_user_btn_count_down"
+            android:gravity="center"
+            android:paddingBottom="@dimen/ws_common_5dp"
+            android:paddingLeft="@dimen/ws_common_inner_gap"
+            android:paddingRight="@dimen/ws_common_inner_gap"
+            android:paddingTop="@dimen/ws_common_5dp"
+            android:text="@string/ws_user_login_verify_code_get"
+            android:textColor="@color/ws_color_common_red"
+            android:textSize="@dimen/base_text_size" />
+    </LinearLayout>
+</LinearLayout>

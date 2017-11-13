@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="wsLoginAndPaySDK-release-">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/b77265f5d879618619470c536cf1e79ede50a199/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b77265f5d879618619470c536cf1e79ede50a199/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b77265f5d879618619470c536cf1e79ede50a199/output/jars/libs/wesaiNetSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

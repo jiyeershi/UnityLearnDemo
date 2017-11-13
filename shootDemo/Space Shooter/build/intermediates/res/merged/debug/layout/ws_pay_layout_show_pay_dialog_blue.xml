@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/ws_pay_game_dialog_title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include"
+        android:layout_marginRight="@dimen/ws_iv_close_margin"
+        android:background="@drawable/ws_pay_bg_white_bottom_round"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/ll_pay_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:orientation="vertical"></LinearLayout>
+
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/bt_dialog_ok"
+            style="@style/ws_pay_common_red_button"
+            android:layout_width="250dp"
+            android:layout_height="40dip"
+            android:layout_gravity="center"
+            android:layout_margin="13dp"
+            android:background="@drawable/ws_pay_btn_blue_selector"
+            android:gravity="center"
+            android:padding="5dip"
+            android:text="@string/ws_pay_dialog_dopay"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

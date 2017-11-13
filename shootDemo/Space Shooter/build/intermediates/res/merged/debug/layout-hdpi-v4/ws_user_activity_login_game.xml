@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0790C1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/ws_user_base_bg_title">
+
+        <ImageView
+            android:id="@+id/ws_login_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/base_text_big_big_size" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ws_user_base_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/ws_login_phone_m_t"
+            android:layout_marginLeft="@dimen/ws_login_phone_m_l_r"
+            android:layout_marginRight="@dimen/ws_login_phone_m_l_r"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <EditText
+                android:id="@+id/ws_login_edt_phone"
+                style="@style/wsLoginEditText"
+                android:layout_width="match_parent"
+                android:hint="请输入手机号："
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ws_login_edt_code"
+                    style="@style/wsLoginEditText"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:hint="请输入验证码："
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/ws_login_btn_code"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ws_login_bg_green_round"
+                    android:gravity="center"
+                    android:text="@string/ws_user_login_sendMessage"
+                    android:textColor="@color/ws_text_commen_color"
+                    android:textSize="@dimen/base_text_small_size" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ws_login_btn_login"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ws_user_selector_btn_brown"
+                android:gravity="center"
+                android:text="@string/ws_user_login_do"
+                android:textColor="@color/ws_text_commen_color"
+                android:textSize="@dimen/base_text_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ws_login_wx_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/ws_common_1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:layout_marginRight="@dimen/ws_common_10dp"
+                android:layout_marginTop="@dimen/ws_common_50dp"
+                android:background="#60b0fe" />
+
+            <include layout="@layout/ws_custom_wx_login"></include>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

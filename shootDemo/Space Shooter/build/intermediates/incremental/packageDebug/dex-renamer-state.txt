@@ -1,0 +1,4 @@
+#Tue Sep 19 18:29:27 CST 2017
+base.0=G\:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=G\:\\unity\\unityProj\\BallGame\\shootDemo\\Space Shooter\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

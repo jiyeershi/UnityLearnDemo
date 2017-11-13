@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_card"
+        android:background="@drawable/ws_pay_item_bg_hicard"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_1"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/ws_pay_c1"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dp"
+                android:lines="1"
+                android:text="余额10元"
+                android:textColor="@color/ws_pay_red1"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dp"
+                android:lines="1"
+                android:text="有效期至："
+                android:textColor="@color/ws_pay_c1"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:src="@drawable/ws_pay_bg_item_bottom_wave"
+            android:background="@color/ws_pay_default_bg"
+            android:layout_alignBottom="@id/ll_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_selected_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ws_pay_icon_pay_type_unselect" />
+    </RelativeLayout>
+
+</RelativeLayout>

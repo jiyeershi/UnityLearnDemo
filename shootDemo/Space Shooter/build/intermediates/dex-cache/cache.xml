@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_1fc0ac4d09a2d0490c956684965f06541758634e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\okhttp-3.8.0_1817cc3b7074bbcce1cc39789ee7501bd997b1d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\alipaysdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="61551cf6e23c5133046a07ec6cd9dee6aa5c78a0">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\alipaysdk_3e35882e98ce55270cbe1e4ff187cdd7d0f22c52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\rxandroid_1.2.1_classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\rxandroid_1.2.1_classes_783367ee2ad3c2aadfe46d250fc9bbcd624a0736.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\gson-2.7_41aef7e85ae85ff5b999b37b7685603007165555.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\adapter-rxjava-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\adapter-rxjava-2.3.0_cb9c21590a557671a1ca43acc2cb5145a3812773.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\retrofit-2.3.0_c2fd229f6d067022469a6408d9e09c10e00b9235.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\libammsdk_5769f28278b4997376e043771589ae0d840ac6f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6831a07fe24f06b4f2889e6d31760238eb59f861">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\unity-classes_2a54c2ee33f494da44beaa83c896faca8d0aec99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\okio-1.13.0_9feb2360844302f458f32f242ab6af42fe29f849.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\rxjava-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af000bec2036a2a9d07197c4b03b8966bfc60b03">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\rxjava-1.3.0_b9d8c7579d2dfe6edd7d15877f3730c2797b626b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\alipaysecsdk_8de75561c6cc656b9dffbe75245066ac53b7f318.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\libs\alipayutdid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="G:\unity\unityProj\BallGame\shootDemo\Space Shooter\build\intermediates\pre-dexed\debug\alipayutdid_ee45f1fe70e347806122983f32a96dcddbf0a490.jar" />
+    </item>
+
+</items>
